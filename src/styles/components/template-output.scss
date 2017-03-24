@@ -1,0 +1,43 @@
+.c-output {
+  position: absolute;
+  right: 0;
+  top: $top-height;
+  bottom: 0;
+  width: 50%;
+}
+
+
+/**
+ * From below, @author https://github.com/mjmlio/mjml-app
+ */
+.Iframe-container {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow: hidden;
+}
+
+.Iframe-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.Iframe-loader {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

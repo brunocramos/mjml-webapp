@@ -1,0 +1,34 @@
+.c-btn {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 25px;
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+  line-height: 1em;
+}
+
+
+.c-btn-primary {
+  border-color: $color-primary;
+  background: $color-primary;
+  color: #fff;
+
+  &:hover, &:focus {
+    border-color: $color-secondary;
+    background: $color-secondary;
+    outline: none
+  }
+}
+
+.c-btn-secondary {
+  border-color: $color-secondary;
+  background: $color-secondary;
+  color: #fff;
+
+  &:hover, &:focus {
+    border-color: $color-primary;
+    background: $color-primary;
+  }
+}

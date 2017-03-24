@@ -1,0 +1,21 @@
+.c-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $top-height;
+  line-height: $top-height + 2;
+  background: #222;
+  color: #fff;
+  z-index: 20;
+  text-align: right;
+  padding: 0 10px;
+  border-bottom: 1px solid #333;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .c-btn-beautify {
+    float: left;
+    margin-top: 6px;
+  }
+}
