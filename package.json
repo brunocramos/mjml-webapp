@@ -1,0 +1,37 @@
+{
+  "name": "mjml-webapp",
+  "version": "1.0.0",
+  "description": "MJML Simple Webapp",
+  "main": "index.js",
+  "repository": "https://github.com/brunocramos/mjml-webapp",
+  "author": "@brunocramos",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --inline --progress --port 4000 --open"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "lodash": "^4.17.4",
+    "mjml": "^3.3.0",
+    "mjml-core": "^3.3.0",
+    "react": "^15.4.2",
+    "react-ace": "^4.1.6",
+    "react-copy-to-clipboard": "^4.2.3",
+    "react-dom": "^15.4.2",
+    "sanitize.css": "^5.0.0",
+    "vkbeautify": "^0.99.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "node-sass": "^4.5.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
