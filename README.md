@@ -1,5 +1,7 @@
 # MJML WebApp
 
+![ScreenShot](http://i.imgur.com/GBSbfkc.png)
+
 Simple WebApp wrapper for MJML to be used by non-tech users.
 
 __Why?__
